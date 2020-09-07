@@ -258,7 +258,6 @@ vendor/lib/libvidhance.so
 vendor/lib/libvl53l1_daemon.so
 vendor/lib/libyuv_watermark.so
 vendor/lib/sensors.hal.tof.so
-vendor/lib/vendor.oneplus.camera.CameraHIDL@1.0.so
 vendor/lib/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
 vendor/lib/vendor.oneplus.hardware.translation@1.0.so
 vendor/lib64/camera/fdconfigpreview.bin
@@ -371,7 +370,6 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/libyuv_watermark.so
 vendor/lib64/sensors.hal.tof.so
-vendor/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
 vendor/lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
 vendor/lib64/vendor.oneplus.hardware.translation@1.0.so
 
