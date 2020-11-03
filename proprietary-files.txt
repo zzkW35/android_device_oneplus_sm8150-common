@@ -1079,6 +1079,7 @@ vendor/lib/libmmosal_proprietary.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
+vendor/lib/libavservices_minijail.so|a8f3db5590e64c64e7d8303833af87cbf465ead2
 vendor/lib/libdsd2pcm.so
 vendor/lib/libFileMux_proprietary.so
 vendor/lib/libFlacSwDec.so
@@ -1122,6 +1123,7 @@ vendor/lib/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
+vendor/lib64/libavservices_minijail.so|71f1631e9c3f6ecab024f4cee7d03e45738d4f53
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libmm-color-convertor.so
@@ -1330,6 +1332,7 @@ vendor/bin/pd-mapper
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/libmdmdetect.so
 vendor/lib/libminkdescriptor.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqdi.so
@@ -1342,9 +1345,11 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+vendor/lib/libqsocket.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
+vendor/lib64/libmdmdetect.so
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqdi.so
@@ -1357,6 +1362,7 @@ vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
+vendor/lib64/libqsocket.so
 
 # Qualcomm Trusted Execution Environment
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
