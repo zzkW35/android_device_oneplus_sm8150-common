@@ -18,6 +18,7 @@ package com.statix.device.DeviceSettings;
 
 import android.content.Context;
 import android.media.AudioManager;
+import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.os.VibrationEffect;
 import android.view.KeyEvent;
