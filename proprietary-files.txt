@@ -57,8 +57,10 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Audio
 vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/bin/hw/vendor.oneplus.hardware.param@1.0-service
 vendor/etc/dolby/dax-default.xml
 vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/etc/init/vendor.oneplus.hardware.param@1.0-service.rc
 vendor/etc/media_codecs_dolby_audio.xml
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
@@ -89,6 +91,7 @@ vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib/vendor.oneplus.hardware.param@1.0.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
@@ -116,8 +119,9 @@ vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.oneplus.hardware.param@1.0.so 
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
@@ -793,6 +797,7 @@ vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
+vendor/lib64/libqdma_file_agent.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss@1.0.so
@@ -1217,6 +1222,13 @@ vendor/lib64/ls_client.so
 vendor/lib64/vendor.nxp.nxpese@1.0.so
 vendor/lib64/vendor.nxp.nxpnfc@1.0.so
 vendor/lib64/vendor.nxp.eventprocessor@1.0.so
+
+# PD - from LA.UM.9.1.r1-07000-SMxxx0.0
+vendor/bin/pd-mapper
+vendor/lib/libpdmapper.so
+vendor/lib/libpdnotifier.so
+vendor/lib64/libpdmapper.so
+vendor/lib64/libpdnotifier.so
 
 # Perf
 -vendor/app/pasrservice/pasrservice.apk
