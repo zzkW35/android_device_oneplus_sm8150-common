@@ -410,6 +410,9 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+
 # Vendor libstdc++
 PRODUCT_PACKAGES += \
     libstdc++.vendor
