@@ -397,12 +397,12 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
+    telephony \
     wfd
 
 # RCS
@@ -413,11 +413,8 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2 \
-    android.hardware.radio.config@1.0 \
     android.hardware.secure_element@1.0 \
     libprotobuf-cpp-full \
-    librmnetctl \
     libxml2
 
 # Vendor libstdc++
